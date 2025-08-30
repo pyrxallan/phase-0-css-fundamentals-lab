@@ -1,5 +1,45 @@
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: auto;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+nav a{
+  background-color: grey;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#featured-property{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#featured-property figure img{
+  display: inline-block;
+  margin: 0 auto;
+  width: 850px;
+  height: auto;
+}
+
+#featured-property p{
+  width: 47%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+#details{
+  display: inline-flex;
+  background-color: red;
+  width: 100%;
+  margin: auto;
+  float: left;
+}
+
+#details div{
+  width: 25%;
 }
